@@ -3,7 +3,6 @@
     Autor: Jonas Pollpeter
     Version: 2.4
     Quellcode für: Fernbedienung Arduino
-    ANMERKUNG: Dieser Code steuert das Auto
 */
 /////////////////// libraries
 #include            <SoftwareSerial.h>
