@@ -13,17 +13,16 @@ Neben der "analogen" Steuerung mittles der Fernbedienung können mithilfe dieser
  * neue Steuerung mit 4 Knöpfen für jede Richtung
  * exakte Geschwindigkeitskontrolle
 
-## Wichtige Anmerkung
-Diese App benutzt zu Authetifizierung die Keycard und benötigt dafür ein NFC-fähiges Gerät. Natürlich kann dies aber mittels Änderungen im Quellcode umgangen werden. Hiermit ist auch das WLAN-Passwort öffentlich einsehbar, wodurch die Sicherheit geschwächt wird. Jedoch ist dies nur ein Projekt, bei welchem es nicht wirklich auf hundertprozentige Sicherheit ankommt.
+## Anmerkung
+Diese App benutzt zu Authentifizierung die Keycard und benötigt dafür ein NFC-fähiges Gerät. Natürlich kann dies aber mittels Änderungen im Quellcode umgangen werden. 
 
 ## Download:
-
-Um die App auszuprobiern lade sie dier hier als APK-Datei herunter und installiere sie auf einem Android-Smarphone mit Android 6.0 oder höher, welches über die NFC Funktion verfügt. [Roboterauto Steuerung.apk](https://github.com/JonasPTFL/ArduinoRoboterAuto-AndroidClient/blob/master/Download/Roboterauto%20Steuerung.apk?raw=true)
+Um die App auszuprobiern kann sie hier als APK-Datei heruntergeladen werden: [Roboterauto Steuerung.apk](/Android%20App/RASteuerung/Download/Roboterauto%20Steuerung.apk?raw=true)
 
 ## Screenshots der App:
 <div align="center">
-    <img src="https://github.com/JonasPTFL/ArduinoRoboterAuto-AndroidClient/blob/master//Screenshots/ScreenshotLogin.jpg?raw=true" width="200px"></img>
-    <img src="https://github.com/JonasPTFL/ArduinoRoboterAuto-AndroidClient/blob/master//Screenshots/ScreenshotMain.jpg?raw=true" width="200px"></img> 
+    <img src="/Android%20App/RASteuerung/Screenshots/ScreenshotLogin.jpg?raw=true" width="200px"></img>
+    <img src="/Android%20App/RASteuerung/Screenshots/ScreenshotMain.jpg?raw=true" width="200px"></img> 
 </div>
 
 ---
