@@ -1,7 +1,7 @@
 /*
     RoboterAuto - Informatik Projekt
     Autor: Jonas Pollpeter
-    Version: 2.4
+    Version: 4.0
     Quellcode für: Fernbedienung Arduino
 */
 /////////////////// libraries
@@ -265,7 +265,6 @@ void loop(void) {
   } else if (cButtonState == LOW) {
     lastCButtonState = cButtonState;
   }
-
   // send lights command/toggle lights on z-button pressed
   if (zButtonState == HIGH && zButtonState != lastZButtonState) {
     lastZButtonState = zButtonState;
@@ -274,20 +273,7 @@ void loop(void) {
   } else if (zButtonState == LOW) {
     lastZButtonState = zButtonState;
   }
-
-  //TODO DEBUG TEST... // else move delcaration to zop init nunchuck getz data
-  //  int accelZ = nunchuk_accelz();
-  //  if (accelZ < 250) {
-  //    lastShakeDownMillis = currentMillis;
-  //  }
-  //  else if (lastShakeDownMillis != 0) {
-  //    if (accelZ > 950 && currentMillis - lastShakeDownMillis < 100) {
-  //      ESPserial.print("L0R0!");
-  //      lastShakeDownMillis = 0;
-  //    }
-  //  }
-  /////////////////////////////////////
-
+  // listening for udp packets
   if (ESPserial.available()) {
     while (ESPserial.available() > 0) {
       incommingPacket += ((char)ESPserial.read());

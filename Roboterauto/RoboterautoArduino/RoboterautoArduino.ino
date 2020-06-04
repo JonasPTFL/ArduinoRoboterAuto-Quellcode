@@ -1,10 +1,8 @@
 /*
     RoboterAuto - Informatik Projekt
     Autor: Jonas Pollpeter
-    Version: 2.5
+    Version: 4.0
     Quellcode für: Roboterauto Arduino
-
-    ANMERKUNG: Dieser Code steuert das Auto
 */
 /////////////////// libraries
 #include            <SoftwareSerial.h>
