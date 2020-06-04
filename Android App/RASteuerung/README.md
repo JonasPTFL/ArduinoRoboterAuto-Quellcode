@@ -22,8 +22,8 @@ Um die App auszuprobiern lade sie dier hier als APK-Datei herunter und installie
 
 ## Screenshots der App:
 <div align="center">
-    <img src="/Screenshots/ScreenshotLogin.jpg?raw=true" width="200px"></img>
-    <img src="/Screenshots/ScreenshotMain.jpg?raw=true" width="200px"></img> 
+    <img src="https://github.com/JonasPTFL/ArduinoRoboterAuto-AndroidClient/blob/master//Screenshots/ScreenshotLogin.jpg?raw=true" width="200px"></img>
+    <img src="https://github.com/JonasPTFL/ArduinoRoboterAuto-AndroidClient/blob/master//Screenshots/ScreenshotMain.jpg?raw=true" width="200px"></img> 
 </div>
 
 ---
