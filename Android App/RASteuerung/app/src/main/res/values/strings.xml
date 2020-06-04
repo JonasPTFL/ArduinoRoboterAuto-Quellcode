@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Roboterauto Steuerung</string>
+    <string name="connect_car">Roboterauto-Verbindung</string>
+    <string name="toggle_lights">Beleuchtung</string>
+    <string name="gps_dialog_title">Standort deaktiviert</string>
+    <string name="gps_dialog_message">Bitte schalte GPS ein, damit die App Information über die Verbindung zum Roboterauto empfangen kann.</string>
+    <string name="car_available">Auto verfügbar</string>
+    <string name="car_not_available">Nicht verfügbar</string>
+    <string name="distance">%1$scm</string>
+    <string name="tag_scannen"><![CDATA[<h1>Anmeldung</h1><p>Bitte melde dich mit der Keykarte an, um das Roboterauto zu steuern</p>]]></string>
+    <string name="speed_template">%1$d%%</string>
+    <string-array name="car_modes">
+        <item>Normaler Modus</item>
+        <item>Zwei-Spieler Steuerung</item>
+        <item>Umgekehrte Steuerung</item>
+        <item>Abstandhalten-Modus</item>
+    </string-array>
+    <string name="mode_selection">Spielmodus auswählen</string>
+</resources>

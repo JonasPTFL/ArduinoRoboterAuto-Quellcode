@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="switch_padding">12dp</dimen>
+    <dimen name="control_button_width">135dp</dimen>
+    <dimen name="control_button_height">60dp</dimen>
+    <dimen name="control_button_margin">10dp</dimen>
+</resources>
