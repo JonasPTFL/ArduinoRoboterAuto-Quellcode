@@ -1,4 +1,4 @@
-# ArduinoRoboterAuto-AndroidClient
+# Android App - Roboterauto Steuerung
 Eine Android App zur Fernsetuerung des RoboterAutos. 
 Neben der "analogen" Steuerung mittles der Fernbedienung können mithilfe dieser App zusätzliche Funktionen abgerufen werden.
 
