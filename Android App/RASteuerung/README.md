@@ -14,7 +14,7 @@ Neben der "analogen" Steuerung mittles der Fernbedienung können mithilfe dieser
  * exakte Geschwindigkeitskontrolle
 
 ## Anmerkung
-Diese App benutzt zu Authentifizierung die Keycard und benötigt dafür ein NFC-fähiges Gerät. Natürlich kann dies aber mittels Änderungen im Quellcode umgangen werden. 
+Die App wurde mithilfe der Entwicklungsumgebung „Android Studio“ entwickelt und läuft auf Android Geräten mit Android 6.0 oder höher.
 
 ## Download:
 Um die App auszuprobiern kann sie hier als APK-Datei heruntergeladen werden: [Roboterauto Steuerung.apk](/Android%20App/RASteuerung/Download/Roboterauto%20Steuerung.apk?raw=true)
