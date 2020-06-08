@@ -221,7 +221,7 @@ void loop(void) {
       break;
 
     case 4:
-      // control mode 4: gyroscope control dynamic // DEBUG TEST
+      // control mode 4: gyroscope control dynamic
       if (pitch > minValuePitchModeGyroscope && enabled) {
         carSpeedLeft = map(pitch, 15, 90, 150, speedMax);
         carSpeedRight = carSpeedLeft;
@@ -258,9 +258,9 @@ void loop(void) {
     }
     for (int i = 0; i < controlMode; i++) {
       digitalWrite(RED_LED, HIGH);
-      delay(200);
+      delay(125);
       digitalWrite(RED_LED, LOW);
-      delay(200);
+      delay(125);
     }
   } else if (cButtonState == LOW) {
     lastCButtonState = cButtonState;
@@ -305,7 +305,7 @@ int sign(int number) {
 /////////////////// sendEngineCommand-method
 void sendEngineCommand(int leftEngineValue, int rightEngineValue) {
   String engineCommand = driveCommandTemplate;
-  engineCommand.replace("%1", leftEngineValue);
-  engineCommand.replace("%2", rightEngineValue);
+  engineCommand.replace("%1", String(leftEngineValue));
+  engineCommand.replace("%2", String(rightEngineValue));
   ESPserial.print(engineCommand);
 }
