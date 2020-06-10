@@ -9,7 +9,7 @@ Neben der "analogen" Steuerung mittles der Fernbedienung können mithilfe dieser
   1. **Normaler Modus**: normale Steuerung
   2. **Zwei-Spieler-Modus**: zwei Spieler steuern gleichzeitig die App, der eine die linken Motoren, der andere die rechten
   3. **Umgekehrte Steuerung**: Die Steuerung ist umgekehrt und somit schwerer. Dies stellt eine Herausforderung und Abwechslung dar.
-  4. **Abstand-Halten-Modus**: Halte deine Hand vor das Roboterauto und es folg dieser vor und zurück, sobald du sie vom Auto weg oder hinbewegst. Das Auto fährt dann immer auf 25cm Abstand zu Hand vor und zurück 
+  4. **Abstand-Halten-Modus**: Halte deine Hand vor das Roboterauto und es folgt dieser vor und zurück, sobald du sie vom Auto weg oder hinbewegst. Das Auto fährt dann immer auf 25cm Abstand zu Hand vor und zurück 
  * neue Steuerung mit 4 Knöpfen für jede Richtung
  * exakte Geschwindigkeitskontrolle
 
