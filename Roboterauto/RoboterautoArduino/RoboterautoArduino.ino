@@ -113,7 +113,7 @@ void loop(void) {
         if (command.equals(clientDisconnectedMessage)) {
           clientConnected = false;
           stopEngine();
-          if (statusLightOn)  { // TODO DEBUG TEST REALLY ENABLE GREEN LED
+          if (statusLightOn)  {
             for (int i = greenLedPWMLightValue; i >= 0; i--) {
               analogWrite(GREEN_LED, i);
               delay(4);
